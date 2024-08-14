@@ -321,7 +321,7 @@ bool send_gamepad_report()
             calibrationStep = 1;
             calibrationMode = true;
         }
-        else if (buttonState[BTN_HOTKEY_PLUS] && buttonState[BTN_HOTKEY_MINUS]
+        else if (buttonState[BTN_HOTKEY_PLUS] && buttonState[BTN_A]
                 && buttonState[BTN_SELECT] && buttonState[BTN_START]) {
             // Ctrl+Alt+Del
             reset_usb_boot(0, 0);
