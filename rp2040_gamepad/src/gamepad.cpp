@@ -8,7 +8,7 @@
 #define PIN_A 0
 #define PIN_B 1
 #define PIN_X 2
-#define PIN_Y 25
+#define PIN_Y 3
 #define PIN_START 16
 #define PIN_SELECT 11
 #define PIN_D_UP 12
@@ -16,15 +16,15 @@
 #define PIN_D_LEFT 14
 #define PIN_D_RIGHT 15
 #define PIN_L2_HALF 20
-#define PIN_R2_HALF 8
-#define PIN_L2_FULL 21
-#define PIN_R2_FULL 7
-#define PIN_R1 9
-#define PIN_L1 10
+#define PIN_R2_HALF 21
+#define PIN_L2_FULL 8
+#define PIN_R2_FULL 9
+#define PIN_R1 7
+#define PIN_L1 6
 #define PIN_L3 23
-#define PIN_R3 3
-#define PIN_HOTKEY_MINUS 17
-#define PIN_HOTKEY_PLUS 24
+#define PIN_R3 17
+#define PIN_HOTKEY_MINUS 18
+#define PIN_HOTKEY_PLUS 10
 
 // Array to store digital pins used for buttons.
 uint8_t buttonPins[buttonCount] = {
