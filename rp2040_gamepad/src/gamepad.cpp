@@ -23,7 +23,7 @@
 #define PIN_L1 6
 #define PIN_L3 23
 #define PIN_R3 17
-#define PIN_HOTKEY_MINUS 18
+#define PIN_HOTKEY_MINUS 22
 #define PIN_HOTKEY_PLUS 10
 
 // Array to store digital pins used for buttons.
