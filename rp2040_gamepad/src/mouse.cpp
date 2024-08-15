@@ -138,7 +138,8 @@ bool send_mouse_report()
     if (!mouseEnabled)
         return false;
 
-    if (mouseCalibration.changed(buttonState[BTN_HOTKEY_PLUS] && buttonState[BTN_HOTKEY_MINUS])) {
+    if (mouseCalibration.changed(buttonState[BTN_HOTKEY_PLUS])) {
+        if (buttonState[BTN_START] && buttonState[BTN_SELECT])
         mpu.setFullScaleGyroRange(MPU6050_GYRO_FS_250);
         mpu.setFullScaleAccelRange(MPU6050_ACCEL_FS_2);
         sleep_ms(5000); // Allow user some time to put the handheld screen down;
